@@ -35,6 +35,12 @@ Quando houver diferença entre os dois, vale este guia nos pontos operacionais e
 - Fim: um CTA simples e variado ("Salva pra rever depois", "Manda pra quem treina com você"), depois "Referências" com autor et al., periódico, ano e doi.org/...
 - Antes de entregar, releia em voz alta: se alguma frase soar como texto de robô ou de anúncio, reescreva.
 
+## 3b. Slides para o público leigo (pedido do Afonso)
+- Escreva os slides para quem não estuda fisiologia: frase simples, uma ideia por slide, termos técnicos explicados na hora ("aminoácidos, as peças que formam a proteína").
+- NÃO cite estudos nos slides ("num estudo com 11 adultos..."). Nada de tamanho de amostra, autor ou desenho de estudo na arte. Números só quando ajudam a entender ("cerca de um terço"), arredondados e fiéis à fonte.
+- As referências e as ressalvas de evidência (estudos divergentes, estudo pequeno, animal, in vitro) vão na LEGENDA, em linguagem simples. O último slide pode dizer "As referências estão na legenda".
+- Releia cada slide perguntando: alguém leigo entende sem reler? Se precisar reler, reescreva.
+
 ## 4. Formato do post.json (render.py)
 Tipos de slide: capa, texto, lista, imagem, final. Destaque dourado: palavras entre *asteriscos* (use com moderação: 1 a 3 palavras por slide).
 - capa: tag, titulo (curto, gancho), sub (opcional)
