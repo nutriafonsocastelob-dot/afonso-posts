@@ -12,7 +12,7 @@ post.json:
   ]
 }
 - Destaque em dourado: palavras entre *asteriscos* (em titulo, sub, corpo, itens).
-- Todos os slides são azul-marinho (não existe mais tema claro).
+- Todos os slides em fundo branco, texto azul-marinho e destaque bronze da logo.
 """
 import sys, os, json, re
 from PIL import Image, ImageDraw, ImageFont
@@ -141,18 +141,18 @@ def contador(d, i, n, escuro):
 
 
 def base(escuro):
-    return Image.open(B("fundo.png")).convert("RGB")
+    return Image.open(B("fundo.png" if escuro else "fundo-branco.png")).convert("RGB")
 
 
 def slide(s, i, n, pasta):
     tipo = s.get("tipo", "texto")
-    escuro = True  # decisão do Afonso: todos os slides em azul-marinho
+    escuro = False  # decisão do Afonso (16/11): todos os slides em fundo branco
     img = base(escuro)
     d = ImageDraw.Draw(img)
     cor = BRANCO if escuro else NAVY
     dest = OURO if escuro else OURO_ESC
     corpo_cor = (225, 230, 236) if escuro else TEXTO_CL
-    X = 90 if escuro else 280          # no claro, a faixa azul ocupa a esquerda
+    X = 90          # no claro, a faixa azul ocupa a esquerda
     MAXW = W - X - 90
 
     # sem contador de slides: o Instagram já mostra a numeração (pedido do Afonso)
@@ -160,14 +160,14 @@ def slide(s, i, n, pasta):
     if tipo == "capa":
         y = 300
         if s.get("tag"):
-            y = tag(d, X, y, s["tag"], True) + 50
+            y = tag(d, X, y, s["tag"], escuro) + 50
         f = caber(d, s["titulo"], "ExtraBold", 104, 62, MAXW, 560, 1.08)
         y = escrever(d, X, y, s["titulo"], f, MAXW, cor, dest, 1.08) + 40
         if s.get("sub"):
             f2 = caber(d, s["sub"], "Medium", 42, 32, MAXW, 200)
             escrever(d, X, y, s["sub"], f2, MAXW, corpo_cor, dest)
         fa = fonte("SemiBold", 32)
-        d.text((W - 90 - d.textlength("arraste →", font=fa), 1150), "arraste →", font=fa, fill=OURO)
+        d.text((W - 90 - d.textlength("arraste →", font=fa), 1150), "arraste →", font=fa, fill=OURO if escuro else OURO_ESC)
 
     elif tipo == "final":
         y = 360
@@ -179,8 +179,8 @@ def slide(s, i, n, pasta):
         if s.get("cta"):
             f3 = fonte("Bold", 34)
             tw = d.textlength(s["cta"], font=f3)
-            d.rounded_rectangle([X, y, X + tw + 60, y + 76], radius=38, fill=OURO)
-            d.text((X + 30, y + 19), s["cta"], font=f3, fill=NAVY)
+            d.rounded_rectangle([X, y, X + tw + 60, y + 76], radius=38, fill=OURO if escuro else NAVY)
+            d.text((X + 30, y + 19), s["cta"], font=f3, fill=NAVY if escuro else BRANCO)
 
     else:
         y = 230 if escuro else 200
@@ -188,7 +188,7 @@ def slide(s, i, n, pasta):
             y = tag(d, X, y, s["tag"], escuro) + 40
         f = caber(d, s.get("titulo", ""), "ExtraBold", 72, 46, MAXW, 300, 1.1)
         y = escrever(d, X, y, s.get("titulo", ""), f, MAXW, cor, dest, 1.1) + 36
-        LIM = 1110 if escuro else 1250
+        LIM = 1110
         if tipo == "texto" and s.get("corpo"):
             f2 = caber(d, s["corpo"], "Medium", 42, 30, MAXW, LIM - y, 1.32)
             escrever(d, X, y, s["corpo"], f2, MAXW, corpo_cor, dest, 1.32)

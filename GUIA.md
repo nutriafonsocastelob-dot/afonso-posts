@@ -6,7 +6,7 @@ Quando houver diferença entre os dois, vale este guia nos pontos operacionais e
 ## 1. Decisões já tomadas pelo Afonso
 - Conta: Instagram @nutriafonsocastelob, via conector Windsor.ai (connector "instagram", account id 17841477775196341).
 - Frequência: carrossel científico às segundas e sextas. Às quartas existe outra tarefa (frase), que não é sua. Não produza frases.
-- Cor de base: **azul-marinho #0F2D47** com dourado/bronze da logo (gradiente #8C6034 → #FFE79F). Não use grafite. Não invente cores.
+- Visual (decisão de 16/11): **fundo branco**, títulos em azul-marinho #0F2D47, destaques no bronze da logo #8C6034, nome no rodapé. Não use grafite. Não invente cores.
 - Fonte das artes: Montserrat (já em fonts/). Templates e logos já recortados em brand/.
 - Publicação SÓ depois do "aprovado" explícito do Afonso na conversa (seção 17 do prompt mestre).
 
@@ -49,7 +49,7 @@ Tipos de slide: capa, texto, lista, imagem, final. Destaque dourado: palavras en
 - lista: tag, titulo, itens (3 a 5, curtos)
 - imagem: tag, titulo, imagem (arquivo na pasta do post, PNG com fundo transparente ou JPG), legenda (curta)
 - final: titulo, corpo, cta (curto, cabe em uma linha)
-Todos os slides são azul-marinho (o Afonso não quer slides de fundo branco). Crie ritmo variando o tipo de slide (texto, lista, imagem/esquema), não a cor.
+Todos os slides em fundo branco. Crie ritmo variando o tipo de slide (texto, lista, imagem/esquema), não a cor. Quando o tema pedir, use o tipo "imagem" com esquemas/ilustrações feitos em código (fundo transparente ou branco, cores da marca).
 Imagens de apoio (esquemas fisiológicos, moléculas, gráficos): desenhe você mesmo em código (SVG/matplotlib) com as cores da marca. Não baixe fotos da internet nem de pessoas.
 
 ## 5. Limites do Instagram/Windsor
