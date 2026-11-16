@@ -27,7 +27,15 @@ Quando houver diferença entre os dois, vale este guia nos pontos operacionais e
     - "Aprovado" (ou equivalente explícito) → publique com Windsor `execute_action`, action `create_carousel_post` (ou `create_image_post` para post único), account 17841477775196341, params { image_urls: [URLs raw na ordem], caption: legenda aprovada }. Use exatamente a versão aprovada.
     - Informe o resultado real retornado. Se falhar, diga que falhou e o erro. Atualize o historico.md (publicado + media_id, ou o erro) e faça push.
 
-## 3. Formato do post.json (render.py)
+## 3. Legenda: o mais longe possível de "cara de IA" (pedido do Afonso)
+- Escreva como o Afonso falaria explicando para um paciente: frases curtas, português do dia a dia ("pra", "uns 32%", "tem um detalhe"), primeira pessoa quando couber.
+- Comece direto pela ideia, sem "Você sabia", "Vamos falar sobre", "Neste post", "Descubra".
+- Proibido: emojis, travessões em excesso, listas de três adjetivos, "não é X, é Y" repetido, "jornada", "desvendar", "crucial", "fundamental", "potencializar", perguntas retóricas em série, frases motivacionais, negrito/maiúsculas para ênfase.
+- 3 a 5 parágrafos curtos. A legenda conta a ideia com outras palavras; não repete os slides.
+- Fim: um CTA simples e variado ("Salva pra rever depois", "Manda pra quem treina com você"), depois "Referências" com autor et al., periódico, ano e doi.org/...
+- Antes de entregar, releia em voz alta: se alguma frase soar como texto de robô ou de anúncio, reescreva.
+
+## 4. Formato do post.json (render.py)
 Tipos de slide: capa, texto, lista, imagem, final. Destaque dourado: palavras entre *asteriscos* (use com moderação: 1 a 3 palavras por slide).
 - capa: tag, titulo (curto, gancho), sub (opcional)
 - texto: tag, titulo, corpo (use \n para parágrafo; máx. ~45 palavras)
@@ -37,5 +45,5 @@ Tipos de slide: capa, texto, lista, imagem, final. Destaque dourado: palavras en
 Todos os slides são azul-marinho (o Afonso não quer slides de fundo branco). Crie ritmo variando o tipo de slide (texto, lista, imagem/esquema), não a cor.
 Imagens de apoio (esquemas fisiológicos, moléculas, gráficos): desenhe você mesmo em código (SVG/matplotlib) com as cores da marca. Não baixe fotos da internet nem de pessoas.
 
-## 4. Limites do Instagram/Windsor
+## 5. Limites do Instagram/Windsor
 JPEG, até 8 MB, proporção 4:5 (1080×1350), 2 a 10 imagens no carrossel, legenda até 2.200 caracteres.
