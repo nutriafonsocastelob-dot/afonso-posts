@@ -141,7 +141,7 @@ def contador(d, i, n, escuro):
 
 
 def base(escuro):
-    return Image.open(B("template-3.png" if escuro else "template-4.png")).convert("RGB")
+    return Image.open(B("fundo.png")).convert("RGB")
 
 
 def slide(s, i, n, pasta):
