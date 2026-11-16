@@ -155,7 +155,7 @@ def slide(s, i, n, pasta):
     X = 90 if escuro else 280          # no claro, a faixa azul ocupa a esquerda
     MAXW = W - X - 90
 
-    contador(d, i, n, escuro)
+    # sem contador de slides: o Instagram já mostra a numeração (pedido do Afonso)
 
     if tipo == "capa":
         y = 300

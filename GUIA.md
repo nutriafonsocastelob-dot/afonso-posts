@@ -39,6 +39,7 @@ Quando houver diferença entre os dois, vale este guia nos pontos operacionais e
 - Escreva os slides para quem não estuda fisiologia: frase simples, uma ideia por slide, termos técnicos explicados na hora ("aminoácidos, as peças que formam a proteína").
 - NÃO cite estudos nos slides ("num estudo com 11 adultos..."). Nada de tamanho de amostra, autor ou desenho de estudo na arte. Números só quando ajudam a entender ("cerca de um terço"), arredondados e fiéis à fonte.
 - As referências e as ressalvas de evidência (estudos divergentes, estudo pequeno, animal, in vitro) vão na LEGENDA, em linguagem simples. O último slide pode dizer "As referências estão na legenda".
+- Não coloque numeração de slide ("1/6") na arte: o Instagram já mostra.
 - Releia cada slide perguntando: alguém leigo entende sem reler? Se precisar reler, reescreva.
 
 ## 4. Formato do post.json (render.py)
