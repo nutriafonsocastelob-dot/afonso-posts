@@ -54,3 +54,10 @@ Imagens de apoio (esquemas fisiológicos, moléculas, gráficos): desenhe você 
 
 ## 5. Limites do Instagram/Windsor
 JPEG, até 8 MB, proporção 4:5 (1080×1350), 2 a 10 imagens no carrossel, legenda até 2.200 caracteres.
+
+## 6. Frase das quartas (tarefa "Frase diária — Nutri Afonso")
+Esta seção vale só para a tarefa da frase. A tarefa do carrossel não produz frases.
+- Imagem: `python3 frase.py "LINHA 1|LINHA 2|*DESTAQUE*" posts/AAAA-MM-DD/frase.jpg` (1080×1350, JPEG). Não altere cores, fonte (DM Serif Display, em fonts/) nem posições. A arte não leva logomarca, selo nem marca d'água.
+- Arquivos do dia: posts/AAAA-MM-DD/frase.jpg e posts/AAAA-MM-DD/legenda.txt.
+- Histórico de temas e pedidos do Afonso sobre as frases: doc "Frases diárias — Afonso Castelo Branco" (Claude Docs, id 521ec27e-0bba-4e2a-92cd-53f3be1fe3ad). No historico.md deste repositório, use formato "frase" e eixo "Frase".
+- Publicação SÓ depois do "aprovado" explícito: Windsor `execute_action`, connector instagram, account 17841477775196341, action `create_image_post`, params { image_url: URL raw do frase.jpg, caption: legenda aprovada, idêntica }.
