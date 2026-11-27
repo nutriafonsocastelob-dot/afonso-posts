@@ -9,6 +9,7 @@ Quando houver diferença entre os dois, vale este guia nos pontos operacionais e
 - Visual (decisão de 16/11): **fundo branco**, títulos em azul-marinho #0F2D47, destaques no bronze da logo #8C6034, nome no rodapé. Não use grafite. Não invente cores.
 - Fonte das artes: Montserrat (já em fonts/). Templates e logos já recortados em brand/.
 - Publicação SÓ depois do "aprovado" explícito do Afonso na conversa (seção 17 do prompt mestre).
+- Foco do perfil (decisão de 27/11): todos os temas devem girar em torno de metabolismo, performance e composição corporal, inclusive os de fitoterapia. Na escolha do tema, prefira o que toca mais de um desses três pilares.
 - Fitoterapia (decisão de 27/11): posts de fitoterapia devem puxar para a nutrição esportiva (desempenho, recuperação, composição corporal, adaptação ao treino). Não fazer fitoterapia voltada a problemas clínicos/doenças (ex.: intestino irritável).
 
 ## 2. Passo a passo de cada execução
