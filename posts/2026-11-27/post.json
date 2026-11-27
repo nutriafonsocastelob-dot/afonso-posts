@@ -1,0 +1,10 @@
+{"slides": [
+{"tipo": "capa", "tag": "Fitoterapia", "titulo": "Óleo de hortelã pra *intestino irritável*: funciona?", "sub": "Tem estudo a favor, tem estudo contra. E tem um detalhe na cápsula."},
+{"tipo": "texto", "tag": "Que problema é esse", "titulo": "Síndrome do *intestino irritável*.", "corpo": "Dor na barriga que vai e volta, junto com mudanças no intestino: ora preso, ora solto, às vezes os dois.\n\nOs exames costumam não mostrar lesão nenhuma. Mesmo assim, o incômodo é real e atrapalha a rotina."},
+{"tipo": "texto", "tag": "A planta", "titulo": "Não é qualquer *hortelã*.", "corpo": "O que foi estudado é o óleo essencial da hortelã-pimenta (Mentha x piperita), em cápsula e em dose medida.\n\nChá de hortelã é outra coisa. Não foi isso que os estudos testaram."},
+{"tipo": "imagem", "tag": "Como age", "titulo": "O mentol ajuda o intestino a *relaxar*.", "imagem": "esquema-mentol.png", "legenda": ""},
+{"tipo": "lista", "tag": "O que os estudos mostram", "titulo": "Ajuda, mas com *ressalvas*.", "itens": ["Somando os estudos, mais gente melhora com o óleo do que com placebo", "Os estudos mais bem feitos mostram um efeito menor e incerto", "A confiança nessa evidência ainda é *muito baixa*"]},
+{"tipo": "texto", "tag": "O detalhe", "titulo": "Onde a cápsula *abre* faz diferença.", "corpo": "Os estudos usam cápsulas feitas pra passar pelo estômago e abrir no intestino.\n\nNum estudo, a cápsula que abria só no fim do intestino não foi melhor que o placebo. A que abria antes teve algum efeito na dor."},
+{"tipo": "texto", "tag": "O outro lado", "titulo": "Natural também tem *efeito colateral*.", "corpo": "Azia, má digestão e gases foram as queixas mais comuns, quase sempre leves.\n\nA agência europeia de medicamentos contraindica o óleo pra quem tem doença no fígado, pedra na vesícula ou outros problemas na bile."},
+{"tipo": "final", "titulo": "Pode ser uma opção, *com orientação*.", "corpo": "Dor na barriga que sempre volta merece avaliação antes de qualquer cápsula. As referências estão na legenda.", "cta": "Manda pra quem vive com dor de barriga"}
+]}
