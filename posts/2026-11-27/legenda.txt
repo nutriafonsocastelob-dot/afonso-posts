@@ -1,15 +1,19 @@
-O suco de cereja azeda ficou popular como ajuda pra recuperar depois de treino pesado. Fui ver o que os estudos dizem de fato.
+Pimenta aparece em muito rótulo de termogênico, com a promessa de acelerar o metabolismo e queimar gordura. O efeito existe, mas é pequeno.
 
-A cereja usada é a azeda, Prunus cerasus, como a variedade Montmorency, que tem muitas antocianinas e outros flavonoides. A ideia é que esses compostos diminuam a inflamação e o estresse oxidativo que vêm depois de um treino pesado. Só que essa explicação vem quase toda de estudos em laboratório e em animais.
+O que faz a pimenta arder é a capsaicina. Ela ativa um receptor chamado TRPV1, e isso leva à liberação de adrenalina e noradrenalina, que estimulam o gasto de energia e o uso de gordura. Também se estuda se o consumo prolongado ativa a gordura marrom, um tipo de gordura que gasta energia pra produzir calor.
 
-Uma revisão de 2021 juntou 14 estudos, com 303 pessoas, depois de treinos de força, sprints e provas longas como maratona. Com a cereja, a força e o salto voltaram mais rápido nos dias seguintes. A dor também diminuiu, mas pouco e com resultados muito diferentes entre os estudos. Dois marcadores de inflamação no sangue caíram um pouco. A CK, que costuma ser usada como sinal de dano no músculo, não mudou.
+Uma meta-análise com 9 estudos encontrou um aumento médio de uns 60 kcal por dia no gasto de energia, com um pouco mais de gordura sendo usada como combustível. Esse efeito apareceu em quem estava acima do peso. Em quem estava no peso normal, não.
 
-Uma revisão de 2026 trouxe uma leitura mais cautelosa. Vários estudos controlados não acharam efeito, e a melhora em força e potência depende muito do contexto. O autor também lembra que usar antioxidantes todo dia, por muito tempo, poderia atrapalhar a adaptação ao treino. Isso ainda é uma preocupação teórica, mas é motivo pra não transformar o suco em hábito diário.
+Na balança, outra revisão juntou 15 estudos com 762 pessoas acima do peso. Depois de 4 a 12 semanas, a diferença foi de meio quilo e 1 cm de cintura. Os próprios autores chamaram o efeito de modesto. Com os capsinoides, as versões usadas em suplementos, uma revisão com 13 estudos não viu efeito geral no peso, na cintura nem na gordura corporal. Só apareceu uma redução modesta de peso em pessoas acima do peso e em estudos de 12 semanas ou mais.
 
-Onde ele parece fazer mais sentido: semanas com competição em dias seguidos, pouco tempo entre jogos, viagem. No treino do dia a dia, comida, sono e descanso continuam vindo primeiro. E vale ajustar dose e período com quem acompanha sua alimentação.
+E no treino? Uma revisão de estudos com exercício encontrou aumento do gasto de energia em só um deles, e resultados desencontrados no uso de gordura. Por enquanto, não parece ajudar a gastar mais treinando.
 
-Manda pra quem compete no fim de semana.
+Pimenta na comida, pra quem gosta, tudo bem. Mas quem muda a composição corporal é a alimentação ajustada, proteína suficiente, treino e sono.
+
+Manda pra quem jura que pimenta emagrece.
 
 Referências
-Hill J et al. Int J Sport Nutr Exerc Metab, 2021. doi.org/10.1123/ijsnem.2020-0145
-Kim J. Phys Act Nutr, 2026. doi.org/10.20463/pan.2026.0009
+Zsiborás et al. Crit Rev Food Sci Nutr. doi.org/10.1080/10408398.2016.1262324
+Zhang W et al. Br J Nutr, 2023. doi.org/10.1017/S0007114523000697
+Sheikhhossein F et al. Clin Nutr ESPEN, 2022. doi.org/10.1016/j.clnesp.2022.09.021
+Revisão sistemática sobre capsaicinoides e exercício. Hum Nutr Metab, 2022. doaj.org/article/10896a9125d84794898308abba6e6ad0
